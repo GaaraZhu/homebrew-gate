@@ -2,27 +2,27 @@ class Gate < Formula
   desc "PII-filtering CLI that intercepts AI agent query results and redacts sensitive data"
   homepage "https://github.com/GaaraZhu/gate"
   license "MIT"
-  version "0.11.4"
+  version "0.11.5"
 
   on_macos do
     on_arm do
-      url "https://github.com/GaaraZhu/gate/releases/download/v0.11.4/gate-0.11.4-aarch64-apple-darwin.tar.gz"
-      sha256 "28c68ab5b4c6dc9f0706f18b024bc38513e6bda4bbd09f787b2ccbd969a2b6df"
+      url "https://github.com/GaaraZhu/gate/releases/download/v0.11.5/gate-0.11.5-aarch64-apple-darwin.tar.gz"
+      sha256 "1f7ab365a1a039ffb36fe3e18118f6e68a7dfad4cd4dad5bcefef9d43d45a9db"
     end
     on_intel do
-      url "https://github.com/GaaraZhu/gate/releases/download/v0.11.4/gate-0.11.4-x86_64-apple-darwin.tar.gz"
-      sha256 "e673fe2d6850eaad1645432050102ea3fd817117be3224e955b1cab8714fcee8"
+      url "https://github.com/GaaraZhu/gate/releases/download/v0.11.5/gate-0.11.5-x86_64-apple-darwin.tar.gz"
+      sha256 "a29900f5967c036017defe857ec160312ecdaf3a4fbef4e8e1d41e4ee221b893"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/GaaraZhu/gate/releases/download/v0.11.4/gate-0.11.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3d99997c2da34a803ae1ed80ae3106e0dac57cc17c995e8bf7268f87190d2501"
+      url "https://github.com/GaaraZhu/gate/releases/download/v0.11.5/gate-0.11.5-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e05560e80cdc85938aba43662faa8b633df837326aba9994f596230f4c4d366a"
     end
     on_intel do
-      url "https://github.com/GaaraZhu/gate/releases/download/v0.11.4/gate-0.11.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "314fc31f95b2b60dad9a6936d89aa1f6b1be001d03cef9eb7e78b6a255861dcd"
+      url "https://github.com/GaaraZhu/gate/releases/download/v0.11.5/gate-0.11.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5806c1444250d8492a2d69968367b09965cf7f8599819e54b2bfc5527037321f"
     end
   end
 
